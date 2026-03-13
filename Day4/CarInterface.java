@@ -1,0 +1,23 @@
+package day4;
+
+
+interface Vehicle {
+	void start();
+	default void m1()
+	{
+		System.out.println("default method");
+	}
+}
+class Car implements Vehicle {
+	public void start() {
+		System.out.println("car starts");
+	}
+}
+public class CarInterface {
+	public static void main(String[] args) {
+		Car vv = new Car();
+		vv.start();
+		vv.m1();
+	}
+}
+
