@@ -1,0 +1,2 @@
+org\example\validation\exception\GlobalExceptionHandler.class
+org\example\validation\exception\ResourceNotFoundException.class
